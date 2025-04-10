@@ -1,0 +1,25 @@
+{
+  "name": "tea-manager",
+  "version": "1.0.0",
+  "description": "a simple manager for different tea",
+  "keywords": [
+    "express",
+    "tea"
+  ],
+  "license": "ISC",
+  "author": "vignesh nayak",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "git": "^0.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
