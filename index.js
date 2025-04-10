@@ -1,8 +1,9 @@
+import 'dotenv/config'
 import express from "express";
 
 const app = express();
 
-const port = 3000;
+const port = process.env.PORT||3000;
 
 // app.get("/", (req, res) => {
 //   res.send("Hello from vignesh ");
@@ -16,7 +17,7 @@ const port = 3000;
 //   res.send("What ice tea ");
 // });
 
-app.use(express.json());
+app.use(express.json())
 
 let teaData = [];
 let nextId = 1;
